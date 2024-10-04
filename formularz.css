@@ -1,0 +1,147 @@
+body
+{
+    background-color: #111;
+    color: white;
+}
+
+#wrapper
+{
+    width: 708px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px dashed darkgreen;
+    border-radius: 2px;
+}
+
+h1
+{
+    background-color: orangered;
+    color: black;
+    padding: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 0;
+    border-radius: 2px;
+    text-shadow: 
+    1px 1px 0 white,    
+    -1px 1px 0 white,    
+    -1px -1px 0 white,    
+    1px -1px 0 white;
+}
+
+legend
+{
+    color: dodgerblue;
+}
+
+input
+{
+    margin-top: 30px;
+    padding: 5px;
+}
+
+input[type="radio"]
+{
+    margin-top: 20px;
+}
+
+input[type="reset"]
+{
+    
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    padding: 6px;
+}
+
+input[type="reset"]:hover
+{
+    color: white;
+    background-color: red;
+}
+
+input[type="submit"]
+{
+    border-radius: 5px;
+    font-weight: 900;
+    margin-right: 100px;
+    padding: 6px;
+}
+
+input[type="submit"]:hover
+{
+    background-color: black;
+    color: white;
+}
+
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+.margin
+{
+    margin-left: 15px;
+}
+
+fieldset
+{
+    margin-bottom: 55px;
+}
+
+.question
+{
+    margin-top: 40px;
+}
+
+.question.little
+{
+    margin-top: 20px;
+}
+
+.black
+{
+    color: red;
+    background-color: black;
+    padding: 6px 4px 6px 8px;
+}
+
+.min-margin
+{
+    margin: 12px 0 12px 0;
+}
+
+#buttons
+{
+    text-align: center;
+}
+
+#textarea
+{
+    resize: none;
+    background-color: #666666;
+    padding: 11px;
+}
+
+label
+{
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="mail"],
+input[type="tel"]
+{
+    background-color: #333333;
+}
+
+fieldset,
+#textarea
+{
+    border-radius: 5px;
+}
